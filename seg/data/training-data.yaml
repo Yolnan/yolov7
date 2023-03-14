@@ -1,5 +1,5 @@
 names:
 - Forklift
 nc: 1
-train: ./train/
-val: ./valid/
+train: ./data/train/
+val: ./data/valid/

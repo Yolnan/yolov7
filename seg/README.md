@@ -9,7 +9,7 @@ All of installation, data preparation, and usage are as same as yolov5.
 ## Training
 
 ``` shell
-python segment/train.py --data coco.yaml --batch 16 --weights '' --cfg yolov7-seg.yaml --epochs 300 --name yolov7-seg --img 640 --hyp hyp.scratch-high.yaml
+python train.py --data ../data/training-data.yaml --batch 16 --weights ../yolov7-seg.pt --cfg ../models/segment/yolov7-seg.yaml --epochs 200 --name yolov7_seg --img 640 --hyp ../data/hyps/hyp.scratch-high.yaml
 ```
 
 ## Results
