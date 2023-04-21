@@ -1,5 +1,8 @@
 names:
-- Forklift
-nc: 1
+- rear
+- left 
+- right
+- front
+nc: 4
 train: ./data/train/
-val: ./data/valid/
+val: ./data/val/
