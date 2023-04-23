@@ -6,3 +6,4 @@ names:
 nc: 4
 train: ./data/train/
 val: ./data/val/
+test: ./data/test/
